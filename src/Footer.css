@@ -1,0 +1,87 @@
+/* NetflixFooter.css */
+
+.netflix-footer {
+    background-color: #111;
+    color: #757575;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo img {
+    width: 120px; /* Adjust the size as needed */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 0px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add transition effect */
+  }
+  
+  .footer-links li:hover {
+    color: #fff; /* Change color on hover */
+  }
+  
+  .footer-social {
+    display: flex;
+    align-items: center;
+    margin-top: 20px; /* Adjust spacing between links and social icons */
+  }
+  
+  .footer-social .fa-icon {
+    margin-right: 15px;
+    font-size: 24px;
+    color: #757575;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Add transition effect */
+  }
+  
+  .footer-social .fa-icon:hover {
+    color: #e50914; /* Change color on hover */
+  }
+  
+  .footer-disclaimer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-disclaimer p {
+    font-size: 14px;
+    color: #757575;
+  }
+  
+  /* Media Query for Tablet/Desktop */
+  @media screen and (min-width: 768px) {
+    .footer-logo img {
+      width: 150px; /* Increase the size of the logo for larger screens */
+    }
+  
+    .footer-links li {
+      font-size: 16px; /* Increase font size for larger screens */
+    }
+  }
+  
+  /* Media Query for Larger Desktops */
+  @media screen and (min-width: 1200px) {
+    .container {
+      padding: 0 40px; /* Increase padding for larger screens */
+    }
+  }
+  
